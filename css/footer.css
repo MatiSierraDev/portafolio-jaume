@@ -1,0 +1,36 @@
+.footer-content {
+  color: var(--colorWhite);
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer .social {
+  justify-content: center;
+}
+
+.footer-logo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-content {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-logo {
+    display: block;
+  }
+
+  .footer .social {
+    order: 3;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: 40px 0px;
+  }
+}

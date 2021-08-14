@@ -1,0 +1,23 @@
+.btn {
+  font: var(--buton);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  border: 2px solid var(--colorPrimary);
+  cursor: pointer;
+  transition: opacity 350ms ease-in-out;
+  opacity: 1;
+  background-color: var(--colorPrimary);
+  color: var(--colorWhite);
+  text-decoration: none;
+  text-align: center;
+}
+.btn.secondary {
+  background-color: transparent;
+  color: var(--colorPrimary);
+}
+.btn:hover {
+  opacity: 0.8;
+}

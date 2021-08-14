@@ -1,0 +1,68 @@
+/****** Components ******/
+@import "./header.css";
+@import "./button.css";
+@import "./buttonIcon.css";
+@import "./heroImage.css";
+@import "./wrapper.css";
+@import "./portfolio.css";
+@import "./message.css";
+@import "./testimonials.css";
+@import "./projects.css";
+@import "./form.css";
+@import "./footer.css";
+
+:root {
+  --fontBase: "Poppins", sans-serif;
+  --fontTestimonials: "Oxygen", sans-serif;
+  --headline1: bold 5.938rem/9.563rem var(--fontBase);
+  --headline2: bold 3.75rem/5.938rem var(--fontBase);
+  --headline3: bold 3rem/4.85rem var(--fontBase);
+  --headline4: bold 2.125rem/3.438rem var(--fontBase);
+  --headline5: bold 1.5rem/2.375rem var(--fontBase);
+  --headlineCard1: bold 2.125rem/3.438rem var(--fontTestimonials);
+  --headlineCard2: bold 1rem/1.563rem var(--fontTestimonials);
+  --body1: normal 1rem/1.563rem var(--fontBase);
+  --body2: normal 0.875rem/1.375rem var(--fontBase);
+  --buton: bold 0.875rem/1.375rem var(--fontBase);
+  --caption: normal 0.75rem/1.188rem var(--fontBase);
+  --colorPrimary: #310a90;
+  --colorSecondary: #42e2b8;
+  --colorWhite: #ffffff;
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--colorPrimary);
+}
+
+.social {
+  display: flex;
+  padding-bottom: 16px;
+  gap: 16px;
+}
+[id] {
+  scroll-margin-top: 6ex;
+}
